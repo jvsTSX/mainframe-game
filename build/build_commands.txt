@@ -1,0 +1,3 @@
+cd C:\Users\jvsTSX\Desktop\project\mainframe\build
+cc88 -srec -v -Md -d pokemini ../interrupts_includes.asm ../ingame.asm ../menu_intro.asm ../ending_cutscene.asm ../graphics.asm ../music_bytecode.asm ../level_bytecode.asm ../ADPM_1_1.asm -o mainframe.sre
+srec_cat mainframe.sre -o mainframe.min -binary
